@@ -1,0 +1,203 @@
+**Joint Implementation Committee Report**
+
+
+**18** **Category wise Opening and Closing Ranks of all Courses in IITs**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+|Sl. No.|Institute|Academic Program Name|Seat Type|Gender|OR|CR|
+|---|---|---|---|---|---|---|
+|1|IIT Bhubaneswar|~~Civil Engineering (4 Years Bachelor of~~<br>Technology)|EWS|Gender-Neutral<br>|2062|2267|
+|2|IIT Bhubaneswar|Civil Engineering (4 Years Bachelor of<br>Technology)<br>|EWS|~~Female-only~~<br>(including<br>Supernumerary)|3638|4265|
+|3|IIT Bhubaneswar|~~Civil Engineering (4 Years Bachelor of~~<br>Technology)|OBC-NCL|Gender-Neutral<br>|4115|5231|
+|4|IIT Bhubaneswar|Civil Engineering (4 Years Bachelor of<br>Technology)<br>|OBC-NCL|~~Female-only~~<br>(including<br>Supernumerary)|7450|8720|
+|5|IIT Bhubaneswar|~~Civil Engineering (4 Years Bachelor of~~<br>Technology)|OPEN|Gender-Neutral<br>|9106|14782|
+|6|IIT Bhubaneswar|Civil Engineering (4 Years Bachelor of<br>Technology)<br>|OPEN|~~Female-only~~<br>(including<br>Supernumerary)|18286|23024|
+|7|IIT Bhubaneswar|~~Civil Engineering (4 Years Bachelor of~~<br>Technology)|SC|Gender-Neutral<br>|2381|2587|
+|8|IIT Bhubaneswar|Civil Engineering (4 Years Bachelor of<br>Technology)<br>|SC|~~Female-only~~<br>(including<br>Supernumerary)|4031|4293|
+|9|IIT Bhubaneswar|~~Civil Engineering (4 Years Bachelor of~~<br>Technology)|ST|Gender-Neutral<br>|753|977|
+|10|IIT Bhubaneswar|Civil Engineering (4 Years Bachelor of<br>Technology)<br>|ST|~~Female-only~~<br>(including<br>Supernumerary)|1718|1750|
+|11|IIT Bhubaneswar|~~Computer Science and Engineering (4~~<br>Years Bachelor of Technology)|EWS|Gender-Neutral<br>|400|466|
+|12|IIT Bhubaneswar|Computer Science and Engineering (4<br>Years Bachelor of Technology)<br>|EWS|~~Female-only~~<br>(including<br>Supernumerary)|1025|1025|
+|13|IIT Bhubaneswar|~~Computer Science and Engineering (4~~<br>Years Bachelor of Technology)|OBC-NCL|Gender-Neutral<br>|774|1237|
+|14|IIT Bhubaneswar|Computer Science and Engineering (4<br>Years Bachelor of Technology)<br>|OBC-NCL<br>|~~Female-only~~<br>(including<br>Supernumerary)|2107|3291|
+|15|IIT Bhubaneswar|~~Computer Science and Engineering (4~~<br>Years Bachelor of Technology)<br>|~~OBC-NCL~~<br>(PwD)|Gender-Neutral|31|31|
+|16|IIT Bhubaneswar|~~Computer Science and Engineering (4~~<br>Years Bachelor of Technology)|OPEN|Gender-Neutral<br>|2389|3685|
+|17|IIT Bhubaneswar|Computer Science and Engineering (4<br>Years Bachelor of Technology)|OPEN|~~Female-only~~<br>(including<br>Supernumerary)<br>|4833|7557|
+|18|IIT Bhubaneswar|Computer Science and Engineering (4<br>Years Bachelor of Technology)<br>|OPEN (PwD)|~~Female-only~~<br>(including<br>Supernumerary)|197|197|
+|19|IIT Bhubaneswar|~~Computer Science and Engineering (4~~<br>Years Bachelor of Technology)|SC|Gender-Neutral<br>|382|596|
+|20|IIT Bhubaneswar|Computer Science and Engineering (4<br>Years Bachelor of Technology)<br>|SC|~~Female-only~~<br>(including<br>Supernumerary)|1279|1313|
+|21|IIT Bhubaneswar|~~Computer Science and Engineering (4~~<br>Years Bachelor of Technology)|SC (PwD)|Gender-Neutral|30|30|
+
+
+18 OPENING-CLOSING RANKS 449 of 1192
+
+
+**Joint Implementation Committee Report**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+|Sl. No.|Institute|Academic Program Name|Seat Type|Gender|OR|CR|
+|---|---|---|---|---|---|---|
+|22|IIT Bhubaneswar|~~Computer Science and Engineering (4~~<br>Years Bachelor of Technology)|ST|Gender-Neutral<br>|241|356|
+|23|IIT Bhubaneswar|Computer Science and Engineering (4<br>Years Bachelor of Technology)<br>|ST|~~Female-only~~<br>(including<br>Supernumerary)|546|649|
+|24|IIT Bhubaneswar|~~Electrical Engineering (4 Years Bachelor~~<br>of Technology)|EWS|Gender-Neutral<br>|1013|1261|
+|25|IIT Bhubaneswar|Electrical Engineering (4 Years Bachelor<br>of Technology)<br>|EWS|~~Female-only~~<br>(including<br>Supernumerary)|2194|2249|
+|26|IIT Bhubaneswar|~~Electrical Engineering (4 Years Bachelor~~<br>of Technology)|OBC-NCL|Gender-Neutral<br>|2167|2876|
+|27|IIT Bhubaneswar|Electrical Engineering (4 Years Bachelor<br>of Technology)<br>|OBC-NCL|~~Female-only~~<br>(including<br>Supernumerary)|5899|6611|
+|28|IIT Bhubaneswar|~~Electrical Engineering (4 Years Bachelor~~<br>of Technology)|OPEN|Gender-Neutral<br>|5381|7661|
+|29|IIT Bhubaneswar|Electrical Engineering (4 Years Bachelor<br>of Technology)<br>|OPEN|~~Female-only~~<br>(including<br>Supernumerary)|12140|14183|
+|30|IIT Bhubaneswar|~~Electrical Engineering (4 Years Bachelor~~<br>of Technology)<br>|OPEN (PwD)|Gender-Neutral|262|262|
+|31|IIT Bhubaneswar|~~Electrical Engineering (4 Years Bachelor~~<br>of Technology)|SC|Gender-Neutral<br>|1105|1762|
+|32|IIT Bhubaneswar|Electrical Engineering (4 Years Bachelor<br>of Technology)<br>|SC|~~Female-only~~<br>(including<br>Supernumerary)|2081|2081|
+|33|IIT Bhubaneswar|~~Electrical Engineering (4 Years Bachelor~~<br>of Technology)|ST|Gender-Neutral<br>|667|792|
+|34|IIT Bhubaneswar|Electrical Engineering (4 Years 

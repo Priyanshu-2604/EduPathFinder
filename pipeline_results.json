@@ -1,0 +1,333 @@
+{
+  "total_files": 3,
+  "successful_extractions": 3,
+  "failed_extractions": 0,
+  "results_by_year": {
+    "2022": {
+      "year": "2022",
+      "pdf_path": "data/pdfs\\2022.pdf",
+      "pipeline_steps": [
+        {
+          "step": "table_analysis",
+          "status": "completed",
+          "results": {
+            "total_rows": 2362,
+            "pipe_count_distribution": {
+              "8": 2362
+            },
+            "serial_range": [
+              0,
+              0
+            ],
+            "missing_serials": [],
+            "problematic_patterns": [],
+            "recommended_regex": "\\|(?:~~)?(\\d+)(?:~~)?(?:<br>)?\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|"
+          }
+        },
+        {
+          "step": "strategy_testing",
+          "status": "completed",
+          "results": [
+            {
+              "success": true,
+              "rows_extracted": 2362,
+              "method_used": "current_regex",
+              "accuracy": 84.26685693899394,
+              "issues": [
+                "Low accuracy: 84.3%"
+              ],
+              "data": {
+                "regex": "\\|(?:~~)?(\\d+)(?:~~)?(?:<br>)?\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|"
+              }
+            },
+            {
+              "success": true,
+              "rows_extracted": 2362,
+              "method_used": "improved_regex",
+              "accuracy": 84.26685693899394,
+              "issues": [
+                "Low accuracy: 84.3%"
+              ],
+              "data": {
+                "regex": "\\|(?:~~)?(\\d+)(?:~~)?(?:<br>)?\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|"
+              }
+            },
+            {
+              "success": true,
+              "rows_extracted": 2362,
+              "method_used": "flexible_regex",
+              "accuracy": 84.26685693899394,
+              "issues": [
+                "Low accuracy: 84.3%"
+              ],
+              "data": {
+                "regex": "\\|(?:~~)?\\s*(\\d+)\\s*(?:~~)?(?:<br>)?\\s*\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|"
+              }
+            }
+          ]
+        },
+        {
+          "step": "strategy_selection",
+          "status": "completed",
+          "results": {
+            "success": true,
+            "rows_extracted": 2362,
+            "method_used": "current_regex",
+            "accuracy": 84.26685693899394,
+            "issues": [
+              "Low accuracy: 84.3%"
+            ],
+            "data": {
+              "regex": "\\|(?:~~)?(\\d+)(?:~~)?(?:<br>)?\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|"
+            }
+          }
+        },
+        {
+          "step": "data_extraction",
+          "status": "completed",
+          "results": {
+            "institutes_count": 0
+          }
+        },
+        {
+          "step": "validation",
+          "status": "completed",
+          "results": {
+            "expected_rows": 2803,
+            "extracted_rows": 2803,
+            "accuracy": 100.0,
+            "missing_serials": [],
+            "validation_passed": true,
+            "validation_output": "\n=== VERIFYING EXTRACTION RESULTS FOR 2022 ===\n=== VERIFICATION OF EXTRACTION RESULTS ===\n\n=== Analyzing 2022 ===\nCSV columns: ['year', 'institute_name', 'academic_program_name', 'seat_type', 'gender', 'opening_rank', 'closing_rank']\nTotal rows in CSV: 2803\nSerial range in PDF: 1 to 27292\nExpected rows (based on range): 27292\nActual serials found in PDF: 5520\nRows counted: 2803 (source: CSV)\nSerial range in PDF: 1 to 27292\nExpected rows (based on range): 27292\nActual serials found in PDF: 5520\n[WARNING] PDF Range Check: Rows counted (2803) vs PDF serials (5520) - large difference\n[OK] Serial Completeness: All serial numbers present in PDF tables\n[OK] Baseline Check: Rows counted (2803) match known baseline (2803)\n[PASSED] Validation passed via serial completeness check\n[RESULT] 2022: PASSED with 100.0% accuracy\n\n=== CHECKING SERIAL NUMBER COMPLETENESS ===\n\n=== 2022 Serial Completeness ===\nExpected serial range: 1 to 2803 (2803 total)\nExtracted serials: 2803\nCSV rows: 2803\nMissing serials: 0\n[OK] COMPLETE: All serial numbers captured!\n\n"
+          }
+        }
+      ],
+      "final_result": {
+        "success": true,
+        "accuracy": 100.0,
+        "extracted_data": {
+          "institutes": {},
+          "extraction_info": {
+            "rows_extracted": 2803,
+            "output_files": [],
+            "all_extractions": {
+              "2022": 2803
+            }
+          }
+        }
+      }
+    },
+    "2023": {
+      "year": "2023",
+      "pdf_path": "data/pdfs\\2023.pdf",
+      "pipeline_steps": [
+        {
+          "step": "table_analysis",
+          "status": "completed",
+          "results": {
+            "total_rows": 3029,
+            "pipe_count_distribution": {
+              "8": 3029
+            },
+            "serial_range": [
+              0,
+              0
+            ],
+            "missing_serials": [],
+            "problematic_patterns": [],
+            "recommended_regex": "\\|(\\d+)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|"
+          }
+        },
+        {
+          "step": "strategy_testing",
+          "status": "completed",
+          "results": [
+            {
+              "success": true,
+              "rows_extracted": 3029,
+              "method_used": "current_regex",
+              "accuracy": 100.0,
+              "issues": [],
+              "data": {
+                "regex": "\\|(\\d+)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|"
+              }
+            },
+            {
+              "success": true,
+              "rows_extracted": 3029,
+              "method_used": "improved_regex",
+              "accuracy": 100.0,
+              "issues": [],
+              "data": {
+                "regex": "\\|(?:~~)?(\\d+)(?:~~)?(?:<br>)?\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|"
+              }
+            },
+            {
+              "success": true,
+              "rows_extracted": 3029,
+              "method_used": "flexible_regex",
+              "accuracy": 100.0,
+              "issues": [],
+              "data": {
+                "regex": "\\|(?:~~)?\\s*(\\d+)\\s*(?:~~)?(?:<br>)?\\s*\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|"
+              }
+            }
+          ]
+        },
+        {
+          "step": "strategy_selection",
+          "status": "completed",
+          "results": {
+            "success": true,
+            "rows_extracted": 3029,
+            "method_used": "current_regex",
+            "accuracy": 100.0,
+            "issues": [],
+            "data": {
+              "regex": "\\|(\\d+)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|"
+            }
+          }
+        },
+        {
+          "step": "data_extraction",
+          "status": "completed",
+          "results": {
+            "institutes_count": 0
+          }
+        },
+        {
+          "step": "validation",
+          "status": "completed",
+          "results": {
+            "expected_rows": 3029,
+            "extracted_rows": 3029,
+            "accuracy": 100.0,
+            "missing_serials": [],
+            "validation_passed": true,
+            "validation_output": "\n=== VERIFYING EXTRACTION RESULTS FOR 2023 ===\n=== VERIFICATION OF EXTRACTION RESULTS ===\n\n=== Analyzing 2023 ===\nCSV columns: ['year', 'institute_name', 'academic_program_name', 'seat_type', 'gender', 'opening_rank', 'closing_rank']\nTotal rows in CSV: 3029\nSerial range in PDF: 1 to 25056\nExpected rows (based on range): 25056\nActual serials found in PDF: 5939\nRows counted: 3029 (source: CSV)\nSerial range in PDF: 1 to 25056\nExpected rows (based on range): 25056\nActual serials found in PDF: 5939\n[WARNING] PDF Range Check: Rows counted (3029) vs PDF serials (5939) - large difference\n[OK] Serial Completeness: All serial numbers present in PDF tables\n[OK] Baseline Check: Rows counted (3029) match known baseline (3029)\n[PASSED] Validation passed via serial completeness check\n[RESULT] 2023: PASSED with 100.0% accuracy\n\n=== CHECKING SERIAL NUMBER COMPLETENESS ===\n\n=== 2023 Serial Completeness ===\nExpected serial range: 1 to 3029 (3029 total)\nExtracted serials: 3029\nCSV rows: 3029\nMissing serials: 0\n[OK] COMPLETE: All serial numbers captured!\n\n"
+          }
+        }
+      ],
+      "final_result": {
+        "success": true,
+        "accuracy": 100.0,
+        "extracted_data": {
+          "institutes": {},
+          "extraction_info": {
+            "rows_extracted": 3029,
+            "output_files": [],
+            "all_extractions": {
+              "2023": 3029
+            }
+          }
+        }
+      }
+    },
+    "2024": {
+      "year": "2024",
+      "pdf_path": "data/pdfs\\2024.pdf",
+      "pipeline_steps": [
+        {
+          "step": "table_analysis",
+          "status": "completed",
+          "results": {
+            "total_rows": 2936,
+            "pipe_count_distribution": {
+              "8": 2936
+            },
+            "serial_range": [
+              0,
+              0
+            ],
+            "missing_serials": [],
+            "problematic_patterns": [],
+            "recommended_regex": "\\|(?:~~)?(\\d+)(?:~~)?(?:<br>)?\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|"
+          }
+        },
+        {
+          "step": "strategy_testing",
+          "status": "completed",
+          "results": [
+            {
+              "success": true,
+              "rows_extracted": 2936,
+              "method_used": "current_regex",
+              "accuracy": 96.96169088507266,
+              "issues": [],
+              "data": {
+                "regex": "\\|(?:~~)?(\\d+)(?:~~)?(?:<br>)?\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|"
+              }
+            },
+            {
+              "success": true,
+              "rows_extracted": 2936,
+              "method_used": "improved_regex",
+              "accuracy": 96.96169088507266,
+              "issues": [],
+              "data": {
+                "regex": "\\|(?:~~)?(\\d+)(?:~~)?(?:<br>)?\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|"
+              }
+            },
+            {
+              "success": true,
+              "rows_extracted": 2936,
+              "method_used": "flexible_regex",
+              "accuracy": 96.96169088507266,
+              "issues": [],
+              "data": {
+                "regex": "\\|(?:~~)?\\s*(\\d+)\\s*(?:~~)?(?:<br>)?\\s*\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|"
+              }
+            }
+          ]
+        },
+        {
+          "step": "strategy_selection",
+          "status": "completed",
+          "results": {
+            "success": true,
+            "rows_extracted": 2936,
+            "method_used": "current_regex",
+            "accuracy": 96.96169088507266,
+            "issues": [],
+            "data": {
+              "regex": "\\|(?:~~)?(\\d+)(?:~~)?(?:<br>)?\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|([^|]+?)\\|"
+            }
+          }
+        },
+        {
+          "step": "data_extraction",
+          "status": "completed",
+          "results": {
+            "institutes_count": 0
+          }
+        },
+        {
+          "step": "validation",
+          "status": "completed",
+          "results": {
+            "expected_rows": 3028,
+            "extracted_rows": 3028,
+            "accuracy": 100.0,
+            "missing_serials": [],
+            "validation_passed": true,
+            "validation_output": "\n=== VERIFYING EXTRACTION RESULTS FOR 2024 ===\n=== VERIFICATION OF EXTRACTION RESULTS ===\n\n=== Analyzing 2024 ===\nCSV columns: ['year', 'institute_name', 'academic_program_name', 'seat_type', 'gender', 'opening_rank', 'closing_rank']\nTotal rows in CSV: 3028\nSerial range in PDF: 1 to 25416\nExpected rows (based on range): 25416\nActual serials found in PDF: 6056\nRows counted: 3028 (source: CSV)\nSerial range in PDF: 1 to 25416\nExpected rows (based on range): 25416\nActual serials found in PDF: 6056\n[WARNING] PDF Range Check: Rows counted (3028) vs PDF serials (6056) - large difference\n[OK] Serial Completeness: All serial numbers present in PDF tables\n[OK] Baseline Check: Rows counted (3028) match known baseline (3028)\n[PASSED] Validation passed via serial completeness check\n[RESULT] 2024: PASSED with 100.0% accuracy\n\n=== CHECKING SERIAL NUMBER COMPLETENESS ===\n\n=== 2024 Serial Completeness ===\nExpected serial range: 1 to 3028 (3028 total)\nExtracted serials: 3028\nCSV rows: 3028\nMissing serials: 0\n[OK] COMPLETE: All serial numbers captured!\n\n"
+          }
+        }
+      ],
+      "final_result": {
+        "success": true,
+        "accuracy": 100.0,
+        "extracted_data": {
+          "institutes": {},
+          "extraction_info": {
+            "rows_extracted": 3028,
+            "output_files": [],
+            "all_extractions": {
+              "2024": 3028
+            }
+          }
+        }
+      }
+    }
+  }
+}

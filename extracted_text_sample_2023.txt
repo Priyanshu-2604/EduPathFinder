@@ -1,0 +1,61 @@
+_Joint Implementation Committee Report_
+
+# **18. Category wise Opening and Closing Ranks of all Courses in IITs**
+
+|S.No.|Institute|Academic Program Name|Seat Type|Gender|OR|CR|
+|---|---|---|---|---|---|---|
+|1|IIT Bhubaneswar|Civil Engineering (4 Years, B. Tech)|OPEN|Gender-Neutral|12511|14997|
+|2|IIT Bhubaneswar|Civil Engineering (4 Years, B. Tech)|OPEN|Female-only (including<br>Supernumerary)|18989|21229|
+|3|IIT Bhubaneswar|Civil Engineering (4 Years, B. Tech)|EWS|Gender-Neutral|1852|2341|
+|4|IIT Bhubaneswar|Civil Engineering (4 Years, B. Tech)|EWS|Female-only (including<br>Supernumerary)|3354|3354|
+|5|IIT Bhubaneswar|Civil Engineering (4 Years, B. Tech)|OBC-NCL|Gender-Neutral|4326|5274|
+|6|IIT Bhubaneswar|Civil Engineering (4 Years, B. Tech)|OBC-NCL|Female-only (including<br>Supernumerary)|5905|7192|
+|7|IIT Bhubaneswar|Civil Engineering (4 Years, B. Tech)|SC|Gender-Neutral|1941|2799|
+|8|IIT Bhubaneswar|Civil Engineering (4 Years, B. Tech)|SC|Female-only (including<br>Supernumerary)|3985|3985|
+|9|IIT Bhubaneswar|Civil Engineering (4 Years, B. Tech)|ST|Gender-Neutral|798|858|
+|10|IIT Bhubaneswar|Civil Engineering (4 Years, B. Tech)|ST|Female-only (including<br>Supernumerary)|1349|1349|
+|11|IIT Bhubaneswar|Civil Engineering and M. Tech. in Structural<br>Engineering (5 Years, B. Tech - M. Tech Dual Deg.)|OPEN|Gender-Neutral|13350|16386|
+|12|IIT Bhubaneswar|Civil Engineering and M. Tech. in Structural<br>Engineering (5 Years, B. Tech - M. Tech Dual Deg.)|OPEN|Female-only (including<br>Supernumerary)|23095|23095|
+|13|IIT Bhubaneswar|Civil Engineering and M. Tech. in Structural<br>Engineering (5 Years, B. Tech - M. Tech Dual Deg.)|EWS|Gender-Neutral|2562|2562|
+|14|IIT Bhubaneswar|Civil Engineering and M. Tech. in Structural<br>Engineering (5 Years, B. Tech - M. Tech Dual Deg.)|EWS|Female-only (including<br>Supernumerary)|4094|4094|
+|15|IIT Bhubaneswar|Civil Engineering and M. Tech. in Structural<br>Engineering (5 Years, B. Tech - M. Tech Dual Deg.)|OBC-NCL|Gender-Neutral|4896|5952|
+|16|IIT Bhubaneswar|Civil Engineering and M. Tech. in Structural<br>Engineering (5 Years, B. Tech - M. Tech Dual Deg.)|SC|Gender-Neutral|2142|2142|
+|17|IIT Bhubaneswar|Civil Engineering and M. Tech. in Structural<br>Engineering (5 Years, B. Tech - M. Tech Dual Deg.)|SC|Female-only (including<br>Supernumerary)|4616|4616|
+|18|IIT Bhubaneswar|Civil Engineering and M. Tech. in Structural<br>Engineering (5 Years, B. Tech - M. Tech Dual Deg.)|ST|Gender-Neutral|1025|1025|
+|19|IIT Bhubaneswar|Civil Engineering and M.Tech in Transportation<br>Engineering (5 Years, B. Tech - M. Tech Dual Deg.)|OPEN|Gender-Neutral|14819|15374|
+|20|IIT Bhubaneswar|Civil Engineering and M.Tech in Transportation<br>Engineering (5 Years, B. Tech - M. Tech Dual Deg.)|OPEN|Female-only (including<br>Supernumerary)|21572|21572|
+|21|IIT Bhubaneswar|Civil Engineering and M.Tech in Transportation<br>Engineering (5 Years, B. Tech - M. Tech Dual Deg.)|EWS|Gender-Neutral|2438|2438|
+|22|IIT Bhubaneswar|Civil Engineering and M.Tech in Transportation<br>Engineering (5 Years, B. Tech - M. Tech Dual Deg.)|EWS|Female-only (including<br>Supernumerary)|4301|4301|
+|23|IIT Bhubaneswar|Civil Engineering and M.Tech in Transportation<br>Engineering (5 Years, B. Tech - M. Tech Dual Deg.)|OBC-NCL|Gender-Neutral|5351|5663|
+|24|IIT Bhubaneswar|Civil Engineering and M.Tech in Transportation<br>Engineering (5 Years, B. Tech - M. Tech Dual Deg.)|OBC-NCL|Female-only (including<br>Supernumerary)|8395|8395|
+|25|IIT Bhubaneswar|Civil Engineering and M.Tech in Transportation<br>Engineering (5 Years, B. Tech - M. Tech Dual Deg.)|SC|Gender-Neutral|2744|2746|
+|26|IIT Bhubaneswar|Civil Engineering and M.Tech in Transportation<br>Engineering (5 Years, B. Tech - M. Tech Dual Deg.)|ST|Gender-Neutral|1233|1233|
+
+
+
+_Page 443_
+
+
+_Joint Implementation Committee Report_
+
+
+
+
+
+
+
+
+
+
+
+
+
+|S.No.|Institute|Academic Program Name|Seat Type|Gender|OR|CR|
+|---|---|---|---|---|---|---|
+|27|IIT Bhubaneswar|Civil Engineering and M.Tech in Transportation<br>Engineering (5 Years, B. Tech - M. Tech Dual Deg.)|ST|Female-only (including<br>Supernumerary)|1514|1514|
+|28|IIT Bhubaneswar|Civil Engineering and M.Tech. in Environmental<br>Engineering (5 Years, B. Tech - M. Tech Dual Deg.)|OPEN|Gender-Neutral|15346|16123|
+|29|IIT Bhubaneswar|Civil Engineering and M.Tech. in Environmental<br>Engineering (5 Years, B. Tech - M. Tech Dual Deg.)|OPEN|Female-only (including<br>Supernumerary)|22009|22009|
+|30|IIT Bhubaneswar|Civil Engineering and M.Tech. in Environmental<br>Engineering (5 Years, B. Tech - M. Tech Dual Deg.)|EWS|Gender-Neutral|2642|2658|
+|31|IIT Bhubaneswar|Civil Engineering and M.Tech. in Environmental<br>Engineering (5 Years, B. Tech - M. Tech Dual Deg.)|EWS|Female-only (including<br>Supernumerary)|4349|4349|
+|32|IIT Bhubaneswar|Civil Engineering and M.Tech. in Environmental<br>Engineering (5 Years, B. Tech - M. Tech Dual Deg.)|OBC-NCL|Gender-Neutral|5601|5991|
+|33|IIT Bhubaneswar|Civil Engineering and M.Tech. in Environmen
