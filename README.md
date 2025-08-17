@@ -20,28 +20,28 @@ The IIT Rank Extractor is a comprehensive Python-based system designed to extrac
 
 ```
 EduPathFinder/
-├── IIT_Rank_extractor.py      # Main extraction engine
-├── analysis_utils.py           # Data analysis utilities
-├── batch_processor.py          # Batch processing functionality
-├── config.py                   # Configuration settings
-├── requirements.txt            # Python dependencies
-├── .env                        # Environment variables (API keys)
-├── README.md                   # This documentation
+├── IIT_Rank_extractor.py         # Main extraction engine
+├── analysis_utils.py             # Data analysis utilities
+├── batch_processor.py            # Batch processing functionality
+├── config.py                     # Configuration settings
+├── requirements.txt              # Python dependencies
+├── .env                          # Environment variables (API keys)
+├── README.md                     # This documentation
+├── college_predictor_model/      # College prediction and recommendation system
+│   ├── advanced_features.py      # Advanced feature engineering for prediction
+│   ├── college_recommender.py    # Core recommendation logic
+│   ├── data_preparation.py       # Data preparation utilities
+│   ├── feature_engineering.py    # Feature engineering scripts
+│   ├── model_training.py         # Model training scripts
+│   ├── model_validation.py       # Model validation and evaluation
+│   └── prediction_interface.py   # User-facing prediction interface
 ├── data/
-│   ├── pdfs/                   # Source PDF files
-│   │   ├── 2019.pdf
-│   │   ├── 2020.pdf
-│   │   ├── 2022.pdf
-│   │   ├── 2023.pdf
-│   │   └── 2024.pdf
-│   ├── extracted/              # Processed output files
-│   │   ├── iit_ranks_YYYY.json # Year-wise JSON data
-│   │   ├── iit_ranks_YYYY.csv  # Year-wise CSV data
-│   │   └── iit_ranks_all_years.csv # Combined dataset
-│   └── csv/                    # Additional CSV storage
-├── extracted_text_sample_*.txt # Debug text samples
-└── venv/                       # Python virtual environment
+│   ├── pdfs/                     # Source PDF files (2022.pdf, 2023.pdf, 2024.pdf)
+│   ├── extracted/                # Processed output files (JSON/CSV)
+├── extracted_text_sample_*.txt   # Debug text samples
+└── venv/                         # Python virtual environment
 ```
+
 
 ## 📋 File Descriptions
 
@@ -63,6 +63,17 @@ The main extraction engine that handles:
 - `_extract_standard_format()`: Handles 2022-2024 format
 - `_extract_alternative_format()`: Handles 2020 format
 
+#### `college_predictor_model/`
+**A modular system for college prediction and recommendation based on extracted IIT rank data.**
+
+- `advanced_features.py`: Advanced feature engineering (historical, competitiveness, categorical, rank-based, temporal features)
+- `college_recommender.py`: Core recommendation logic for suggesting eligible programs and generating insights/statistics
+- `data_preparation.py`: Data cleaning and preparation utilities
+- `feature_engineering.py`: Feature engineering scripts (basic transformations)
+- `model_training.py`: Scripts for training machine learning models for college prediction
+- `model_validation.py`: Model validation, cross-validation, and evaluation utilities
+- `prediction_interface.py`: User-facing interface for making predictions and generating reports
+
 #### `analysis_utils.py`
 Utility functions for data analysis and processing (if implemented).
 
@@ -75,16 +86,18 @@ Configuration settings and constants for the application.
 ### Data Files
 
 #### Input PDFs (`data/pdfs/`)
-- **2019.pdf**: IIT rank data for 2019 admissions
-- **2020.pdf**: IIT rank data for 2020 admissions (different format)
 - **2022.pdf**: IIT rank data for 2022 admissions
 - **2023.pdf**: IIT rank data for 2023 admissions
 - **2024.pdf**: IIT rank data for 2024 admissions
 
 #### Output Files (`data/extracted/`)
-- **iit_ranks_YYYY.json**: Structured JSON data by year, organized by institute
-- **iit_ranks_YYYY.csv**: Flattened CSV data by year
-- **iit_ranks_all_years.csv**: Combined dataset across all years
+- **iit_ranks_2022.json**: Structured JSON data for 2022
+- **iit_ranks_2023.json**: Structured JSON data for 2023
+- **iit_ranks_2024.json**: Structured JSON data for 2024
+- **iit_ranks_2022.csv**: Flattened CSV data for 2022
+- **iit_ranks_2023.csv**: Flattened CSV data for 2023
+- **iit_ranks_2024.csv**: Flattened CSV data for 2024
+- **iit_ranks_recent_years.csv**: Combined dataset across all years
 
 #### Debug Files
 - **extracted_text_sample_YYYY.txt**: Raw extracted text samples for debugging
@@ -165,9 +178,10 @@ for pdf_file in pdf_files:
    OPENAI_API_KEY=your_api_key_here
    ```
 
+
 ## 🎮 Usage
 
-### Basic Usage
+### Basic Usage (IIT Rank Extraction)
 ```python
 from IIT_Rank_extractor import IITRankExtractor
 
@@ -188,6 +202,42 @@ After processing, you'll find:
 - Individual year files: `data/extracted/iit_ranks_2022.json`, `data/extracted/iit_ranks_2023.json`, `data/extracted/iit_ranks_2024.json`, etc.
 - Combined dataset: `data/extracted/iit_ranks_recent_years.csv`
 - Debug samples: `extracted_text_sample_2022.txt`, `extracted_text_sample_2023.txt`, etc.
+
+---
+
+### College Predictor & Recommendation Usage
+
+The `college_predictor_model` module provides a machine learning-based system to recommend eligible IIT programs based on your rank, category, and gender.
+
+#### Example: Predicting College Recommendations
+```python
+from college_predictor_model.prediction_interface import PredictionInterface
+
+# Initialize the prediction interface (ensure the model and features are prepared)
+predictor = PredictionInterface(
+    model_path='validated_college_predictor.joblib',
+    features_path='advanced_features_iit_ranks.csv'
+)
+
+# Get recommendations for a student
+rank = 5000
+category = 'OBC-NCL'
+gender = 'Gender-Neutral'
+
+is_valid, msg = predictor.validate_input(rank, category, gender)
+if is_valid:
+    predictions = predictor.get_predictions(rank, category, gender, top_n=10)
+    predictor.print_formatted_results(predictions)
+else:
+    print(f"Input error: {msg}")
+```
+
+#### Features
+- Advanced feature engineering for better prediction accuracy
+- Model validation and statistics reporting
+- Generates actionable recommendations and detailed analysis
+
+> **Note:** Ensure the model is trained and the required feature files exist. See scripts in `college_predictor_model/` for training and validation workflows.
 
 ## 📊 Data Structure
 
